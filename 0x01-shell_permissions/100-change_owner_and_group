@@ -1,2 +1,2 @@
 #!/bin/bash
-chown -R vincent : school 0x0-shell_permissions
+chown -R vincent.school .
