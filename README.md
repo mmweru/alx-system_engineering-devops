@@ -1,1 +1,2 @@
-Scripting repository
+#!/bin/bash
+SCRIPTING OF I/O
