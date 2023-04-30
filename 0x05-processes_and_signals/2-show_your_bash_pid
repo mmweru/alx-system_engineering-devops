@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# To list all bash processes running with their PID
+
+ps -faux | grep "bash"
