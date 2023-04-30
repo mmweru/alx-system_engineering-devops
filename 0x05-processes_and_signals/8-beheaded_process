@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# Used to kill a process
+
+pkill -f "7-highlander"
