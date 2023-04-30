@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# Displays all files containing bash
+# Together with their PIDs
+
+pgrep bash -l
