@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# Stopping of the process
+
+kill -SIGTERM
