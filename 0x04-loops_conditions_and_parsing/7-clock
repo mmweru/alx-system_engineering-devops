@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+# outputs the hours and minutes of a clock
+a=0
+while [ "$a" -lt 13 ];
+do
+    echo "Hour: $a"
+    b=1
+    while [ "$b" -lt 60 ];
+    do
+        echo "$b"
+        ((b++))
+    done
+    ((a++))
+done
