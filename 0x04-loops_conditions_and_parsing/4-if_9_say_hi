@@ -1,12 +1,12 @@
 #!/usr/bin/env bash
 # This script is displaying "Best School" 10 times followed by Hi
 a=0
-while [ "$a" -lt 9 ];
+while [ "$a" -lt 10 ];
 do
-    echo "Best School"
-    ((a++))
-    if [ "$a" -eq 9 ];
-    then
-        echo "Hi"
-    fi
+    echo "Best School"  
+if [ "$a" -eq 8 ];
+then
+    echo "Hi"
+fi
+((a++))
 done
