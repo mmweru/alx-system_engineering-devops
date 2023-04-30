@@ -1,3 +1,4 @@
 #!/usr/bin/env bash
 # To list all the processes running
-ps f
+
+ps -faux
