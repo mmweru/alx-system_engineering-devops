@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+# Displays the list of the current directory 
+# without displaying the hidden content
+for a in *
+do
+    echo "$a" | cut -d'-' -f2
+done
